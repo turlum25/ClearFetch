@@ -1,7 +1,6 @@
 #include <stdlib.h>
-// `alias clearfetch="clear; fastfetch"`
 int main() {
-	int cmd = system("alias start='clear; fastfetch' && start");
+	int cmd = system("clear && fastfetch");
 	if (cmd == 0) {
 		return 0;
 	} else {
